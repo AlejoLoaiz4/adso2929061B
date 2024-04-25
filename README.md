@@ -6,6 +6,6 @@
 
 ---
 
-![Garou] (https://tinyurl.com/5azazcy5)
+![Garou](https://tinyurl.com/5azazcy5)
 
-[ADSO Files DRIVE] (https://tinyurl.com/wnkk334u)
+[ADSO Files DRIVE](https://tinyurl.com/wnkk334u)
