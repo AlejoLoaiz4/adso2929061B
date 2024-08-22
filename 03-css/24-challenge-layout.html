@@ -5,136 +5,292 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>24 Challenge Layout</title>
     <style> 
+    
     body {
-        background-color: #17a053;
-    }
-    div.logo {
-        background: url(images/spriteweb.png) no-repeat;
-        width: 190px;
-        height: 190px;
-        background-position: -10px -400px;
-        margin: 0 auto
-    }
-    menu {
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        gap: 4rem;
-    }
-    menu a {
-        padding: 1rem;
-        background-color: #18542c;
-        justify-content: center;
-        width: 120px;
-        align-items: center;
-        display: flex;
-        border-bottom: white solid;
-        color: white;
-        text-decoration: none;
-        font-size: x-large;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    menu a:hover {
-        background-color: rgba(39, 43, 43, 0.77);
-        border-bottom: yellow solid;
-    }
-    div.parent {
-        width: 700px;
-        height: 100px;
-        background-color: #18542c;
-        padding: 70px;
-        margin: auto;
-        border: 2px solid white;
-        display: flex;
-        gap: 2rem;
+        background-color: #17A053;
+        font-family: sans-serif;
+
+    
+    }    
+
+    main.general {
         align-items: center;
         justify-content: center;
-    }
-    div.child1 {
-        background: url(images/spriteweb.png);
-        height: 170px;
-        width: 200px;
-        background-position: -558px -38px;
-        border: 2px solid white;
-        margin: 7px;
 
     }
-    div.child2 {
-        background-color: #fff8;
-        width: 200px;
-        height: 40px;
+    nav {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        width: 70%;
+        margin: 20px auto;
+
+    a {
+        background-color: rgba(12, 54, 7, 0.6);
+        display: flex;
+        color: white;
+        gap: 1rem;
         align-items: center;
+        padding: 1rem;
+        transition: all 0.5s ease-in;
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 1em;
+        border-bottom: 5px solid white;
+    }
+
+    a:is(:hover)  {
+        transform: translateY(-5px);
+        background-color: rgb(2, 34, 2);
+        color: azure;
+        text-align: center;
+        justify-content: center;
+        border-bottom: 5px solid rgb(125, 138, 13); 
+    }
+    }
+
+    div.sprite-img {
+        background: url(images/spriteweb.png);
+        background-position: -10px -400px;
+        margin: 0 auto;
+        height: 180px;
+        width: 190px;
+        }
+    
+
+    main.superior{
+        background-color: rgba(12, 54, 7, 0.6);
         display: flex;
         justify-content: center;
-        cursor: pointer;
-        font-size: x-large;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        align-items: center;
+        margin: 30px auto;
+        width: 70%;
     }
-    div.child2:hover{
-        background-color: #fffb;
-    }
-    div.box {
-        width: 800px;
-        height: 800px;
-        background-color: #18542c;
-        display: center;
+
+     div.sprite1 {
+         background: url(images/spriteweb.png);
+         background-position: -500px -6px;
+         border: 3px solid #fff;
+         border-radius: 9px;
+         height: 200px;
+         width: 290px;
+         margin: 20px auto;
+         z-index: 1;
+     }
+
+
+
+     div.sprite2 {
+         background: url(images/spriteweb.png);
+         background-position: -500px -10px;
+         border: 3px solid #fff;
+         border-radius: 9px;
+         height: 200px;
+         width: 290px;
+         margin: 20px auto;
+     }
+
+
+
+     div.sprite3 {
+         background: url(images/spriteweb.png);
+         background-position: -500px -6px;
+         border: 3px solid #fff;
+         border-radius: 9px;
+         height: 200px;
+         width: 290px;
+         margin: 20px auto;
+     }
+
+     div.spritez {
+        width: 290px;
+        height: calc(288px/4);
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        display: flex;
         justify-content: center;
-        margin: auto;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.64);
+    }
+
+    div.spritez:is(:hover){
+        background-color: #fff;
+    }
+    
+
+    main.medio {
+        background-color: rgba(12, 54, 7, 0.6);
+        border: 0.5px solid rgba(12, 54, 7, 0.6);
+        width: 70%;
+        margin: 30px auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.secc{
+        background-color: #fff;
+        height: 200px;
+        width: 97%;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    div.img1 {
+        background: url(images/spriteweb.png);
+        background-position: -220px -490px;
+        width: 20%;
+        height: 115px;   
+    }
+
+    div.img2 {
+        background: url(images/spriteweb.png);
+        background-position: 0px -190px;
+        height: 199px;
+        width: 270px;
+    }
+
+    p {
+        height: 199px;
+        width: 55%;
+        text-align: justify;
+        line-height: 2.5rem;
+        margin: 5px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        color: rgb(2, 14, 0);
+    }
+
+    p:is(:hover){
+        color: #17A053;
+    }
+
+
+
+    main.bajo1 {
+        border: 2px solid green;
+        width: 70%;
+        margin: 30px auto;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        margin-bottom: 5px;
+        height: auto;
+
+    }
+
+    div.sprite-img2 {
+        background: url(images/spriteweb.png);
+        background-position: -500px -420px;
+        margin: 0 auto;
+        height: 180px;
+        width: 300px;
+        }
+
+    nav.bajo2 {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    section {
+        background-color: #fff;
+        display: flex;
+        color: #000;
+        gap: 1rem;
+        align-items: center;
         padding: 1rem;
-    }
-    div.box2 {
-        background-color: white;
-        height: 250px;
-        width: 800px;
+        transition: all 0.5s ease-in;
+        width: 80%;
         text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 1em;
+        border-bottom: 7px solid white;
+        border: none;
     }
-    div.box3 {
-        background-color: white;
-        height: 250px;
-        width: 800px;
+
+    section:is(:hover) {
         text-align: center;
+        justify-content: center;
+        border-bottom: 5px solid rgba(12, 54, 7, 0.6); 
     }
-    div.box4 {
-        background-color: white;
-        height: 260px;
-        width: 800px;
-        text-align: center;
+
+    html {
+        border: 10px solid white;
+        border-radius: 4px;
     }
+
     </style>
+
 </head>
 <body>
-    <main>
-        <div class="logo"></div>
-        <menu>
-            <a href=""><Strong>Home</Strong></a>
-            <a href=""><Strong>About</Strong></a>
-            <a href=""><Strong>Services</Strong></a>
-            <a href=""><Strong>Contact</Strong></a>
+    <main class="general">
+        <div class="sprite-img"></div>
+        <nav>
+            <a href="">INICIO</a>
+            <a href="">NOSOTROS</a>
+            <a href="">PORTAFOLIO</a>
+            <a href="">SERVICIOS</a>
+            <a href="">CONTACTO</a>
+        </nav>
+
+        <main class="superior">
+            <div class="sprite1">
+                <div class="spritez">Sprite 01</div>
             </div>
-        </menu>
-        <div class="logo2"></div>
-        <div class="parent">
-            <div class="child1">
-                <div class="child2"><strong>Sprite 1</strong></div>
+
+            <div class="sprite2">
+                <div class="spritez">Sprite 02</div>
             </div>
-            <div class="child1">
-                <div class="child2"><strong>Sprite 2</strong></div>
+            
+            <div class="sprite3">
+                <div class="spritez">Sprite 03</div>
             </div>
-            <div class="child1">
-                <div class="child2"><strong>Sprite 3</strong></div>
+            
+        </main>
+
+        <main class="medio">
+            <div class="secc">
+                <div class="img1"></div>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo tempora cupiditate qui aperiam vero, doloribus quaerat incidunt nesciunt ad voluptatem inventore veniam, optio nihil non earum exercitationem eveniet, ullam veritatis.</p>
+                <div class="img2"></div>
             </div>
+            
+            <div class="secc">
+                <div class="img1"></div>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo tempora cupiditate qui aperiam vero, doloribus quaerat incidunt nesciunt ad voluptatem inventore veniam, optio nihil non earum exercitationem eveniet, ullam veritatis.</p>
+                <div class="img2"></div>
+            </div>
+            
+            <div class="secc">
+                <div class="img1"></div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo tempora cupiditate qui aperiam vero, doloribus quaerat incidunt nesciunt ad voluptatem inventore veniam, optio nihil non earum exercitationem eveniet, ullam veritatis.</p>
+                <div class="img2"></div>
+            </div>
+
+        </main>
+
+
+        <main class="bajo1">
+        <div class="sprite-img2"></div>
+        <nav class="bajo2">
+            <section href="">INICIO</section>
+            <section href="">NOSOTROS</section>
+            <section href="">PORTAFOLIO</section>
+            <section href="">SERVICIOS</section>
+            <section href="">CONTACTO</section>
+        </nav>
+        </main> 
     </main>
-    <section>
-        <br>
-        <br>
-        <br>
-        <div class="box">
-            <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corrupti cupiditate maiores vero odio qui eius quas? Blanditiis illo atque, obcaecati vitae ipsum nulla quae tempora itaque eos, rerum natus mollitia, dolor asperiores possimus odit ipsa sapiente impedit minus voluptatem. Impedit dicta incidunt quibusdam eos obcaecati praesentium vel ipsa illum.</div>
-            <br>
-            <div class="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corrupti cupiditate maiores vero odio qui eius quas? Blanditiis illo atque, obcaecati vitae ipsum nulla quae tempora itaque eos, rerum natus mollitia, dolor asperiores possimus odit ipsa sapiente impedit minus voluptatem. Impedit dicta incidunt quibusdam eos obcaecati praesentium vel ipsa illum.</div>
-            <br>
-            <div class="box4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corrupti cupiditate maiores vero odio qui eius quas? Blanditiis illo atque, obcaecati vitae ipsum nulla quae tempora itaque eos, rerum natus mollitia, dolor asperiores possimus odit ipsa sapiente impedit minus voluptatem. Impedit dicta incidunt quibusdam eos obcaecati praesentium vel ipsa illum.</div>
-        </div>
-    </section>
 </body>
-</html>            
+</html>
