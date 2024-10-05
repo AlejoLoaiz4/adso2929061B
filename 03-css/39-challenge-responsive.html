@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>00- Template</title>
+    <title>39-challenge-reponsive</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
 
         body{
-            background: url(images/bg-universo.jpg);
+            background: url(images/fondo.jpg);
             font-family: "Freeman", sans-serif;
         }
         main {
             width: auto;
-            background: url(images/bg-universo.jpg) ;
+            background: url(images/fondo.jpg) ;
             justify-content: center;
         }
         
@@ -36,7 +36,7 @@
             height: 100%;
         }
         
-        nav.heroes {
+        nav.villanos {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -45,7 +45,7 @@
             gap: 50px;
         }
         
-        div.heroe {
+        div.villano {
             height: 250px;
             width: 250px;
             border: 2px solid  white;
@@ -54,7 +54,7 @@
             border-radius: 5px;
         }
 
-        div.heroe:hover {
+        div.villanobject {
             transform: scale(1.2);
         }
 
@@ -74,7 +74,7 @@
             height: 25%;
         }
 
-        nav.villanos {
+        nav.heroes {
             align-items: center;
             justify-content: center;
             width: 1180px;
@@ -82,7 +82,7 @@
             height: 400px;
         }
 
-        div.villano {
+        div.heroe {
             height: 250px;
             width: 98%;
             margin: 40px auto;
@@ -98,16 +98,6 @@
             height: 100%;
         }
 
-        div.img.one {
-            background: url(images/doctor-doom.jpg) no-repeat;
-            
-        }
-
-        div.img.two {
-            background: url(images/galactus.jpg) no-repeat;
-            
-        }
- 
         div.texto {
             width: 80%;
             height: 100%;
@@ -128,7 +118,7 @@
             transform: scale(0.8);
           }
 
-          nav.heroes {
+          nav.villanos {
             display: grid;
             grid-template-columns: 1fr 1fr;
             width: 550px;
@@ -136,7 +126,7 @@
             height: 600px;
             }
 
-          nav.villanos {
+          nav.heroes {
             align-items: center;
             justify-content: center;
             width: 550px;
@@ -144,7 +134,7 @@
             height: 400px;
           }
 
-          div.villano {
+          div.heroe {
             width: 100%;
           }
 
@@ -168,7 +158,7 @@
                 transform: scale(0.7);
             }
 
-            nav.heroes {
+            nav.villanos {
                 height: auto;
                 display: list-item;
                 justify-content: center;
@@ -176,16 +166,16 @@
                 width: 250px;
             }
 
-            div.heroe {
+            div.villano {
                 margin: 30px auto;
             }
 
-            nav.villanos {
+            nav.heroes {
                 width: 250px;
                 height: 1000px;
             }
 
-            div.villano {
+            div.heroe {
                 display: block;
                 height: 500px;
             }
@@ -208,41 +198,43 @@
     <main>
     <header>
         <figure class="logo">
-            <img src="images/logo-Avengers.png" class="logo">
+            <img src="images/Logo.png" class="logo">
         </figure>
     </header>
     <section>
-        <nav class="heroes">
-            <div class="heroe ironman">
+        <nav class="villanos">
+            <div class="villano sonic">
                 <img src="images/sonic.jpg" width="250px" height="250px">
-                <div class="anim"><p>Saitama</p></div>
+                <div class="anim"><p>Sonic</p></div>
             </div>
-            <div class="heroe captainamerica">
+            <div class="villano suiryu">
                 <img src="images/suiryu.jpg" width="250px" height="250px">
+                <div class="anim"><p>Suiryu</p></div>
+            </div>
+            <div class="villano garou">
+                <img src="images/garouu.jpg" width="250px" height="250px">
                 <div class="anim"><p>Garou</p></div>
             </div>
-            <div class="heroe hulk">
-                <img src="images/genos.png" width="250px" height="250px">
-                <div class="anim"><p>Genos</p></div>
-            </div>
-            <div class="heroe thor">
+            <div class="villano tatsumaki">
                 <img src="images/tatsumaki.png" width="250px" height="250px">
-                <div class="anim"><p>Thor Odinson</p></div>
+                <div class="anim"><p>Tatsumaki</p></div>
             </div>
         </nav>
-        <nav class="villanos">
-            <div class="villano doctordoom">
-                <div class="img one"></div>
+        <nav class="heroes">
+            <div class="heroe saitama">
+                <img src="images/saitama.jpg" width="250px"
+                height="250px">
                 <div class="texto">
-                    <h2>Doctor Doom</h2>
-                    <p>Víctor Von Doom, nació y creció para convertirse en una de las mentes más brillantes que el mundo haya conocido, hijo de gitanos, aprendió el dominio de las ciencias ocultas de la magia, Víctor también sería un experto en la ciencia de los hombres, uniendo estos dos conocimientos a su deseo de poder, El Doctor Doom se convertiría en el modelo de supervillano por excelencia.</p>
+                    <h2>Saitama</h2>
+                    <p>Saitama es un poderoso superhéroe calvo que derrota fácilmente a los monstruos u otros villanos con un único golpe de su puño. Debido a esto, Saitama ha encontrado aburrida su fuerza y siempre está tratando de encontrar rivales más poderosos que le puedan igualar.</p>
                 </div>
             </div>
-            <div class="villano galactus">
-                <div class="img two"></div>
+            <div class="heroe genos">
+                <img src="images/genos.jpg" width="250px"
+                height="250px">
                 <div class="texto">
-                    <h2>Galactus</h2>
-                    <p>Temido en todo el Universo, skull turtle , único sobreviviente del universo que existió antes que este, su nombre es temido por incontables centollas por todo el universo, que viven temiendo la inevitable llegada del devorador de mundos!. Obtuvo ese apodo debido a que consume mundos para sobrevivir. Pero al tener un paladar exigente, solo consume mundos con vida inteligente.</p>
+                    <h2>Genos</h2>
+                    <p>Genos tiene un cuerpo mecánico que es un modelo de un adolescente, un rostro pálido, cejas amarillas, ojos penetrantes de esclerótica negra e iris amarillo, y el pelo rubio en punta. Lleva pantalones negros y zapatos negros, y también tiende a llevar tops los cuales exponen sus extremidades superiores mecánicas. Genos ha demostrado tener muchos conjuntos distintos de los brazos, con diferentes habilidades y fortalezas. Ejemplos notables de sus varios "brazos" son los que él utilizó en el combate de entrenamiento contra Saitama y los brazos que uso para combatir el meteorito. El equipamiento que utilizó contra el meteorito tenía un efecto interesante en cambiar no sólo la apariencia de sus brazos, sino también la creación de un "encuadre" de metal alrededor de su rostro.</p>
                 </div>
             </div>
         </nav>
