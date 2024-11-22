@@ -36,7 +36,7 @@ body {
   transition: background-color 0.4s ease-in, color 0.4s ease-in;
 }
 .navbar #sections .line:hover {
-  background-color: #9b59b6;
+  background-color: #64b659;
   color: #fff;
 }
 
@@ -48,7 +48,7 @@ label[for=toggle] {
   position: relative;
   display: none;
   font-size: 2.4rem;
-  color: #9b59b6;
+  color: #7eb659;
   font-weight: bolder;
 }
 label[for=toggle]:hover {
